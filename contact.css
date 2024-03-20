@@ -1,0 +1,116 @@
+#nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+}
+#A1{
+    text-decoration: none;
+    color: #FFD52D;
+    font-weight: bold;
+}
+body{
+    background-color: #545454;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#search {
+    color:#FFD52D;
+    background-color:#fff;
+    border-color: #FFD52D;
+    text-align: left;
+    border-width: 3px 0 3px 3px;
+    border-radius: 50px 0 0 50px !important;
+    padding: 10px 10px 10px 20px;
+    font-size: 14px;
+    background-color: transparent;
+    border-style: solid;
+}
+@media screen and (max-width:450px) and (min-width:250px) {
+    #search{
+        display: none;
+    }
+  }
+
+
+#bg{
+  background-color: #545454;
+}
+.conteneur{
+  justify-content: space-evenly;
+}
+h3{
+  color: #fff;
+}
+p{
+  color: #fff;
+}
+i{
+  color: #FFD52D;
+}
+
+
+
+.elementor-78 .elementor-element.elementor-element-501fe0b.elementor-view-framed .elementor-icon, .elementor-78 .elementor-element.elementor-element-501fe0b.elementor-view-default .elementor-icon {
+  fill: #fcc902;
+  color: #fcc902;
+  border-color: #fcc902;
+}
+.elementor-78 .elementor-element.elementor-element-501fe0b .elementor-icon {
+  font-size: 21px;
+}
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon {
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
+}
+.elementor-shape-circle .elementor-icon {
+  border-radius: 50%;
+}
+.elementor-view-framed .elementor-icon {
+  padding: 0.5em;
+  color: #69727d;
+  border: 3px solid #69727d;
+  background-color: transparent;
+}
+.elementor-icon {
+  display: inline-block;
+  line-height: 1;
+  transition: all .3s;
+  color: #69727d;
+  font-size: 50px;
+  text-align: center;
+
+}
